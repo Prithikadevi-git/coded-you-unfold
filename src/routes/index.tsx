@@ -84,10 +84,10 @@ const solutions = [
 ];
 
 const work = [
-  { tag: "Software Development", title: "Business Management Platform", text: "Unified enterprise operations cockpit managing multi-branch resource planning, role permissions, and financial audits.", year: "2026", image: services[1].image },
-  { tag: "Web Development", title: "Modern Corporate Website", text: "High-performance corporate brand portal with fluid UI, dynamic CMS, and technical SEO structure.", year: "2026", image: services[0].image },
-  { tag: "E-Commerce", title: "E-Commerce Platform", text: "High-conversion commerce platform with multi-gateway payments, instant checkout, and live inventory sync.", year: "2026", image: services[4].image },
-  { tag: "AI & Automation", title: "AI Business Assistant", text: "Domain-specific conversational AI answering technical enterprise queries from documentation.", year: "2026", image: services[5].image },
+  { tag: "Software Development", title: "Business Management Platform", text: "Unified enterprise operations cockpit managing multi-branch resource planning, role permissions, and financial audits.", year: "2026", image: services[1]!.image },
+  { tag: "Web Development", title: "Modern Corporate Website", text: "High-performance corporate brand portal with fluid UI, dynamic CMS, and technical SEO structure.", year: "2026", image: services[0]!.image },
+  { tag: "E-Commerce", title: "E-Commerce Platform", text: "High-conversion commerce platform with multi-gateway payments, instant checkout, and live inventory sync.", year: "2026", image: services[4]!.image },
+  { tag: "AI & Automation", title: "AI Business Assistant", text: "Domain-specific conversational AI answering technical enterprise queries from documentation.", year: "2026", image: services[5]!.image },
 ];
 
 function SectionHeading({ kicker, title }: { kicker: string; title: string }) {
